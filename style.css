@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+}
+
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+canvas{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
